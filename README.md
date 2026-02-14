@@ -10,12 +10,12 @@ An experimental, Zen-inspired puzzle game built with Python.
 - Logic: Matrix-based state management and 2D-array comparison algorithms.
 - Design Philosophy:** Minimalist UI with a restricted pastel palette to ensure visual harmony.
 
-## 🧠 Logic & Interview Talking Points
-If you are reviewing this code for recruitment, here are the core concepts I implemented:
+## 🧠 Logic 
+ The core concepts I implemented:
 
-1. **State-Cycling Algorithm:** Clicking a tile cycles through a fixed list of Hex colors using the Modulo Operator (%), ensuring infinite, circular state transitions.
-2. **Matrix Comparison:** The game logic performs a nested loop comparison between the User Grid (current state) and a Hidden Master Matrix (target state) to validate completion.
-3. **Non-Punitive UX:** I intentionally removed "fail states" or "Game Over" screens to maintain a flow state, rewarding exploration rather than just accuracy.
+1. State-Cycling Algorithm: Clicking a tile cycles through a fixed list of Hex colors using the Modulo Operator (%), ensuring infinite, circular state transitions.
+2. Matrix Comparison: The game logic performs a nested loop comparison between the User Grid (current state) and a Hidden Master Matrix (target state) to validate completion.
+3. Non-Punitive UX: I intentionally removed "fail states" or "Game Over" screens to maintain a flow state, rewarding exploration rather than just accuracy.
 
 ## 🚀 How to Run
 1. Ensure you have Python installed.
